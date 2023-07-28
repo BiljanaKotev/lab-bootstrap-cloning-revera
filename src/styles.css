@@ -1,0 +1,119 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0 150px 0 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #868686;
+}
+
+li a:hover {
+  color: #ed564b;
+}
+
+.nav-container {
+  justify-content: space-around;
+}
+
+.parent-dropdown {
+  display: none;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.parent-dropdown > li:first-child {
+  padding-top: 25px;
+}
+
+.parent-link:hover .parent-dropdown {
+  display: block;
+}
+
+.dropdown-container {
+  position: absolute;
+  width: 150px;
+  text-align: left;
+  z-index: 1;
+  background-color: white;
+}
+
+.project-img {
+  width: 250px;
+  height: auto;
+}
+.services-section {
+  background-color: #ed564b;
+  max-width: 100%;
+}
+
+/* CAROUSEL */
+
+.carousel-img {
+  width: 100vw;
+}
+
+.carousel-caption-heading {
+  top: 250px;
+}
+
+.img-overlay-container {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  width: 100%;
+  top: -1000px;
+}
+
+.arrow-btn {
+  background-color: #ed564b;
+  width: 50px;
+  height: 100px;
+  top: 275px;
+  opacity: initial;
+}
+
+/* SERVICES SECTION */
+.services-icon {
+  margin: 50px 50px;
+  color: white;
+}
+
+/* PROJECTS SECTION */
+
+.section-break {
+  width: 1240px;
+}
+
+/* ARTICLE SECTION */
+
+.article-link:hover {
+  color: black !important;
+  font-weight: 600;
+}
+
+/* FOOTER SECTION */
+
+.footer-break {
+  border-bottom: 2px dotted grey;
+}
+
+.archives-link:hover,
+.meta-link:hover,
+.post-link:hover {
+  color: white !important;
+}
+
+#copyright {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px 50px;
+}
